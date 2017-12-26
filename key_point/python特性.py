@@ -58,8 +58,17 @@ set((i*2 for i in range(10))) == {i*2 for i in range(10)}
 
 #错误的默认值导致错误
 def foo(x=[]):
-    x.append('1')
+    x.append(1)
     print x
 
-
+#默认值设置为无
+def foo(x=None):
+   if x is None:
+       x = []
+       x.append(1)
+   print x
+foo()
+# [1]
+foo()
+# [1]
 
