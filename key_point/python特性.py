@@ -72,4 +72,17 @@ foo()
 foo()
 # [1]
 
-sdfasdfas=234
+#zip 合并列表
+a=[(1,2),(3,4),(5,6)]
+zip(*a)
+# [(1, 3, 5), (2, 4, 6)]
+t1=(1,2,3)
+t2=(4,5,6)
+dict(zip(t1,t2))
+# {1: 4, 2: 5, 3: 6}
+a=range(10)
+
+#在浏览器中打开界面
+import webbrowser
+webbrowser.open_new_tab('http://www.baidu.com/')
+
