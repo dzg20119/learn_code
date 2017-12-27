@@ -72,4 +72,4 @@ foo()
 foo()
 # [1]
 
-a='wwwwww'
+sdfasdfas=234
