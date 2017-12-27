@@ -72,4 +72,4 @@ foo()
 foo()
 # [1]
 
-a='ww'
+a='wwwwww'
