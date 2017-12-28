@@ -86,4 +86,3 @@ a=range(10)
 import webbrowser
 webbrowser.open_new_tab('http://www.baidu.com/')
 
-babab=123
